@@ -1,0 +1,111 @@
+Data is information stored or processed by a computer.
+-Data Type: An attribute of data that describes the values it can have
+and how the data can be used.
+-some data types: 
+1-Numbers
+2-Letters
+3-True (1)
+4-False(0)
+
+-Numerical data types:
+1-Whole numbers: short/long/int (depending in the language)
+2-Decimal numbers: double/float (depending in the language)
+
+-Boolean: True/False.
+Python ex: isLightOn = true;
+
+-Primitive types in memory:
+Boolean: 1 or 0
+Int: 1s & 0s
+Character: 1s & 0s
+Bit: single 1 or 0
+
+-String: Sequence of characters. Like: name = "Adam" .
+
+-Data Structure: A collection with defined way of accessing & storing items.
+
+-Arrays: Collection of elements,
+where each item is identified by an index or key.
+-Jagged array: Array that can have elements of different dimensions & sizes
+-Sorting Arrays: 
+Numeical data: increasing/decreasing order.
+Strings: alphabetical order.
+-Sorting with programming languages:
+ -Call sorting function.
+ -pass data structure as a parameter to a sorting function.
+-Big O Notation: Notation used to describe the performance of an algorithm.
+-O(1) Time / constant time : Consistent duration of algorithm execution in same time
+regardless of the size of the input.
+-Sorting algorithms examples:
+ -Insertion sort
+ -Merge sort
+ -Radix sort
+
+-Linked lists: A linear data structure, but its elements aren't stored at
+a contiguous locations and are linked by pointers.
+-Node: contains data & a pointer
+
+-Stacks: Push, Pop to add/remove items.
+-Runtime stack keeps track of variables, so you can retrace your steps
+and find error in your code.
+-Queues: (FIFO) First In, First Out
+-Equeue: when an item is added to a list.
+-Dequeue:  when an item is removed to a list.
+-peek(): See the first item in the queue without removing it.
+-Specialized queues: 
+ -Priority queue: Each element has a priority associated with it.
+ -DEQUEK (Double-ended queue): items can be added or removed from either end.
+-Stacks Pros:
+ 1-Reversing things.
+ 2-Keeping track of state.
+ 3-Add/remove from back of a structure.
+ 
+-Associative arrays: Collection of key-value pairs. Key:Value like Sacramento: California
+Key >> Value
+State >> Capital 
+-Rules
+ Key-value pairs.
+ Each key must be unique.
+ Values don't need to be unique.
+ Values are accessed with the key.
+ Order isn't important.
+ 
+Hashing: Data conversion process.
+-Hash function aren't reversible
+How hashing works:
+-ASCII: Numerical representation of text characters. Like T = 116, W = 19 
+Password: twentytwoever
+ASCII Value: 1436
+-Collision: Anytime Two inputs produce the same hash value. 
+-Hash table: an implementation of the associative array abstract data structure.
+-A hash value is based on what it means for 2 objects to be equal.
+-Hash-based structures are excellent at managing many key-value pairs & volatile data.
+
+-Set: 
+-A collection of unique items.
+-Order doesn't matter.
+-None of the elements are duplicated.
+Like : primaryColors = {red, yellow, blue}
+
+How Set Working:
+1-Take an object.
+2-Hash the object.
+3-Store the object using the index.
+4-Repeat & check if object is stored.
+
+-Implementation:
+-Array (linear search)
+-Linked list (traverse)
+-Associative Array (specific key)
+
+Sets Pros & Cons:
+-Pros:
+1-Maintain sorted order while staying fast for insertion, deletion & accessing (binary trees).
+2-Great for priority queues (Heaps).
+-Cons:
+1-Requires some overhead & maintenance.
+2-Searching & deleting takes time because we have to scan all the elements.
+3-Deleting requires having to traverse the whole tree to access the first element, then delete it.
+
+
+ 
